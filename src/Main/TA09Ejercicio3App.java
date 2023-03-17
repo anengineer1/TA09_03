@@ -1,5 +1,6 @@
+package Main;
 
-
+import Clases.Libro;
 
 public class TA09Ejercicio3App {
 
@@ -10,7 +11,8 @@ public class TA09Ejercicio3App {
 		
 		System.out.println(libro1);
 		System.out.println(libro2);
-		
+		System.out.println();
+		System.out.println("El libro con mas páginas es:");
 		System.out.println(masPaginas(libro1, libro2));
 	}
 	
